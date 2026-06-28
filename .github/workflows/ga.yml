@@ -8,5 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v4
+
       - name: 24f1002193@ds.study.iitm.ac.in
-        run: echo "Hello World"
+        run: echo "Hello, world!"
